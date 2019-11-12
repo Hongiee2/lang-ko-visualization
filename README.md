@@ -12,7 +12,9 @@
 `(YOUR_PROJECT_DIRECTORY)/GCP-key.json`
 
 ### Usage
-`export PORT=(PORT_NUMBER_YOU_WANT) && npm start`
+`export PORT=(PORT_NUMBER_YOU_WANT)` 
+`export GOOGLE_APPLICATION_CREDENTIALS=./GCP-key.json` 
+`npm run server-start` 
 
 ### Web
 `http://localhost:(PORT_NUMBER_YOU_WANT)`
@@ -33,3 +35,17 @@
 - 문장에 대해서 감정 분석 후 시각화
 
 ---
+
+
+```
+1.clone
+1-1. install node
+1-2. install git bash
+1-3. open git bash
+1-4. move project directory
+2.key file "GCP_key.json" in root directory
+3.npm install
+4.export PORT="YOUR PORT"
+5.export GOOGLE_APPLICATION_CREDENTIALS=./GCP-key.json
+6.npm start
+```
