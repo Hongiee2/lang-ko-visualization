@@ -13,7 +13,9 @@
 
 ### Usage
 `export PORT=(PORT_NUMBER_YOU_WANT)` 
+
 `export GOOGLE_APPLICATION_CREDENTIALS=./GCP-key.json` 
+
 `npm run server-start` 
 
 ### Web
